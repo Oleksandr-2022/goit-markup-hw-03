@@ -22,18 +22,16 @@ html{
   --button-word-color: #212121;
 }
 .box{
-  outline: 2px solid yellow;
+  outline: 2px solid rgb(76, 0, 255);
   margin: 0;
-}
-
-.page-main{
-  background-color: var(--button-navigation-color);
 }
 
 .container{
   margin-left: auto;
   margin-right: auto;
-  width: ;
+  width: 1200px;
+  height: 600;
+  outline: 2px solid orange ;
 
 }
 
@@ -51,11 +49,17 @@ a {
   cursor: pointer;
 }
 
-.list {
-  list-style: none;
+.visually-hidden{
+
 }
 
-/*Навигация сайта*/
+.list {
+  list-style: none;
+  margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*Навигация сайта*/ 
 
 .link {
   font-weight: 500;
@@ -121,10 +125,16 @@ a {
 /*hero section*/
 .hero {
   background-color: var(--dark-bgc);
+  height: 617px;: ;
 }
 
 .hero-title {
   color: var(--white-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 205;
+  padding-bottom: 288;
+  display: inline-block;
 
   font-weight: 900;
   font-size: 44px;
@@ -132,6 +142,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 2px  #2196f3;
 }
 
 .section-team{
@@ -146,6 +157,8 @@ a {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-top: 0;
+
 }
 
 .section-title .title {
@@ -201,6 +214,10 @@ a {
   letter-spacing: 0.06em;
 }
 
+.text{
+  margin-bottom: 0;
+}
+
 .text-title {
   font-family: 'Roboto';
   font-weight: 400;
@@ -243,15 +260,19 @@ button {
   cursor: pointer;
 }
 
-.button.primary {
+.button-primary {
   background-color: var(--accent-color);
   color: var(--white-text-color);
-
+display: inline-block;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px, 350px;
+  border-radius: 4px;
 }
 
 .button.primary:hover,
