@@ -54,8 +54,8 @@ a {
 
 .list {
   list-style: none;
-  margin-top: 0;
-    margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*Навигация сайта*/ 
@@ -126,6 +126,8 @@ a {
   background-color: var(--dark-bgc);
   /* height: 617px;: ; */
   text-align: center;
+  font-family: 'Roboto';
+  
 }
 
 .hero-title {
@@ -158,11 +160,18 @@ a {
   line-height: 1.17;
   text-align: center;
   margin-top: 0;
-background-color: solid tomato;
+
 }
 
 .section{
-  background-color: rgb(165, 160, 160);
+  outline:chartreuse;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team{
+  padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* features */
@@ -173,6 +182,7 @@ background-color: solid tomato;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  padding-left: 0;
 }
 
 .feature-list .text {
@@ -180,6 +190,8 @@ background-color: solid tomato;
   line-height: 1.71;
   font-weight: 400;
   letter-spacing: 0.03em;
+  padding-left: 0;
+  }
 }
 
 /* team */
@@ -269,6 +281,7 @@ button {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 display: inline-block;
+font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -276,7 +289,10 @@ display: inline-block;
   text-align: center;
   /* margin-left: 700px; */
   /* margin-right: 700px; */
-  padding-right: 10px, 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   text-decoration: none;
   margin-bottom: 200px;
