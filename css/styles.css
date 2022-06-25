@@ -19,6 +19,7 @@ html{
   --background-color: #f5f4fa;
   --item-color: #fff;
   --button-word-color: #212121;
+  --border-nav-color: #ececec;
 }
 .box{
   outline: 2px solid rgb(76, 0, 255);
@@ -30,7 +31,12 @@ html{
   margin-right: auto;
   width: 1200px;    
   height: 600;
-  outline: 2px solid orange ;
+    margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+    
 
 }
 
@@ -69,7 +75,6 @@ position: absolute;
 }
 
 /*Навигация сайта*/ 
-
 .header {
   border-bottom: 1px solid var(--border-nav-color);
 }
@@ -168,9 +173,9 @@ position: absolute;
 .hero-title {
   color: var(--white-text-color);
   margin-top: 0;
-  margin-bottom: 40;
-  padding-top: 200;
-  /* padding-bottom: 288; */
+  margin-bottom: 30;
+  padding-top: 200px;
+  padding-bottom: 0;
   /* display: inline-block; */
 
   font-weight: 900;
@@ -198,10 +203,25 @@ position: absolute;
 
 }
 
+.visually-hidden{
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .section{
-  outline:chartreuse;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  display: flex;
+  /* outline:chartreuse; */
+  padding: 94px 0;
+  
 }
 
 .team{
@@ -217,13 +237,24 @@ position: absolute;
 .feature-list .title {
   color: var(--title-text-color);
 
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   padding-left: 0;
+
+}
+.feature-list .item{
+  width: 270px;
+}
+.feature-list .item not (:last-child){
+  margin-right: 30px;
 }
 
+.feature-list{
+display: flex;
+}
 .feature-list .text {
   font-size: 14px;
   line-height: 1.71;
@@ -231,14 +262,29 @@ position: absolute;
   letter-spacing: 0.03em;
   padding-left: 0;
   }
+
+/* works */
+.work{
+  padding: 0;
+}
+.work-list{
+  display: flex;
+}
+
+.work-list .item +.item {
+  margin-left: 30px;
 }
 
 /* team */
+.team{
+  background-color: var(--button-navigation-color);
+}
+
 .team-list {
   text-align: center;
 }
  .title{
-  margin-bottom: 0;
+  margin-bottom: 10px;
     margin-top: 0;
  }
 .team-list .title {
