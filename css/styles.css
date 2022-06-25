@@ -149,6 +149,12 @@ position: absolute;
   margin-left: 50px;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding: 0 15px;
+}
 /* logo decoration */
 .logo{
   font-family: 'Raleway', sans-serif;
