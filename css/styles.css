@@ -33,9 +33,8 @@ html{
   margin-left: auto;
   margin-right: auto;
   width: 1200px;    
-  display: flex;
-    display: inline;
     list-style-type: none;
+    padding-bottom: 94px;
 }
 
 body {
@@ -296,11 +295,12 @@ display: flex;
   padding: 0; */
 }
 
-work-section{
-    /* padding-bottom: 94px; */
+.work-section{
+padding-top: 0;
+   padding-bottom: 94px;
+ justify-content: center;
 }
-
-.work-list{
+ .work-list{
   display: flex;
   justify-content: center;
 }
@@ -316,7 +316,7 @@ work-section{
 }
 
 .team-img{
-  padding-top: 30xp ;
+  padding-top: 30px ;
   padding-bottom: 30px;
 }
 
@@ -357,7 +357,6 @@ work-section{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 30px;
     margin-top: 0;
     margin-bottom: 10px;
   
@@ -365,7 +364,7 @@ work-section{
 }
 
 .title{
-  margin-bottom: 4px;
+  margin-bottom: 10px;
     margin-top: 0;
  }
 .team-list .title {
@@ -414,7 +413,7 @@ img{
   margin-right: 30px;
 }
 .portfolio-list .item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
     .portfolio-name {
