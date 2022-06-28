@@ -33,8 +33,6 @@ html{
   margin-left: auto;
   margin-right: auto;
   width: 1200px;    
-    list-style-type: none;
-    padding-bottom: 94px;
 }
 
 body {
@@ -253,8 +251,11 @@ display: flex;
   padding-top: 94px;
    justify-content: center;
 }
-
-
+.work-section {
+  display: flex;
+  padding-bottom: 94px;
+  justify-content: center;
+}
 /* features */
 .feature-list {
   display: flex;
@@ -296,10 +297,12 @@ display: flex;
 }
 
 .work-section{
-padding-top: 0;
+ display: flex;
    padding-bottom: 94px;
- justify-content: center;
+   padding-top: 0;
+
 }
+
  .work-list{
   display: flex;
   justify-content: center;
@@ -586,6 +589,13 @@ font-family: 'Roboto';
   color: var(--white-text-color);
   margin-top: 0;
   margin-bottom: 9px;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
 } 
 
 .addres{
